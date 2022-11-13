@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome!!</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="icon.png"   alt="logo" class="logo-foto" />
+            <h1 class="logo-title">PPLG</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#jasa">JASA</a></li>
+                <li><a href="mailto:san.asullah07@gmail.com">KONTAK</a></li>
+            </ul>
+        </nav>
+        <button class="btn-cta" onclick="redirInstagram()">Follow Saya</button>
+    </header>
+    <div class="container">
+        <div class="intro">
+            <p class="title">Hello, X RPL 2 HERE!</p>
+            <p class="description">We are Student from SMKN 1 SUBANG.</p>
+            <img src="x rpl 2.jpg"  class="img-foto"/>
+        </div>
+    </div>
+    <div class="parallax">
+        <div class="tentang">
+            <p class="title">We Are a Programmer</p>
+            <p class="description">“We are The First, and Our Commitment is Your Satisfaction“.</p>
+            <div class="mt-10">
+                <button class="btn-cta" onclick="redirWhatsapp()">Mari Kerjasama</button>
+            </div>
+     </div>
+     <div class="container">
+        <div class="card" id="jasa">
+            <div class="card-item">
+                <img src="24.png" alt="icon 1" class="icon"/>
+                <p class="card-title">Non stop Service</p>
+                <p class="card-description">Service nonstop 24 hour.</p>
+            </div>
+            <div class="card-item">
+                <img src="hot.png" class="icon"/>
+                <p class="card-title">Best Price</p>
+                <p class="card-description">Low Service Fee, all payment methods.</p>
+            </div>
+            <div class="card-item">
+                <img src="rating.png"   class="icon"/>
+                <p class="card-title">1,2k Review</p>
+                <p class="card-description">They are satisfied with the result. </p>
+            </div>
+        </div>
+     </div>
+    </div>
+    <footer>
+        <p class="title">&copy; X RPL 2 2022</p>
+    </footer>
+    
+    <script>
+        function redirInstagram() {
+            window.location.href = "https://www.instagram.com/_.xpplg2/"
+        }
+        
+        function redirWhatsapp() {
+            window.location.href = "https://wa.me/+6282124508191"
+        }
+    </script>
+</body>
+</html>
